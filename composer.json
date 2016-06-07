@@ -1,0 +1,21 @@
+{
+  "name": "bobroid/yii2-ammap",
+  "description": "Yii2 AmMap widget",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikolai Gilko",
+      "email": "n.gilko@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "bower-asset/ammap3": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "bobroid\\ammap\\": ""
+    }
+  }
+}
